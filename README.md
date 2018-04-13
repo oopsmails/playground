@@ -1,5 +1,8 @@
 # playground
 
+---------------------------------
+
+https://www.boraji.com/spring-mvc-5-hello-world-example-with-thymeleaf-template
 
 com.oopsmails.spring.thymeleaf
 spring-thymeleaf
@@ -13,15 +16,13 @@ SpringThymeleafHelloWorldMvcWebConfig
 
 
 ==> change jetty port
-1.
-mvn jetty:run -Djetty.port=18085
+1. mvn jetty:run -Djetty.port=18085
 
-2.
-Set the property inside your pom.xml file:
+2. Set the property inside your pom.xml file:
 
-<properties>
-  <jetty.http.port>18085</jetty.http.port>
-</properties>
+&lt;properties&gt;
+  &lt;jetty.http.port&gt;18085&lt;/jetty.http.port&gt;
+&lt;/properties&gt;
 
 then jetty:run
 
